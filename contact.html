@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            height: 79px;
+            /* width: 100%; */
+            background-color: rgba(0, 0, 0, 0.795);
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        .logo1 {
+            width: 50px;
+            margin-bottom: 15px;
+
+        }
+
+        .logo2 {
+            width: 100px;
+            height: 80px;
+            border-left: 2px solid white;
+        }
+
+        .main1 {
+            background-image: url(https://completeprojectresource.com/wp-content/uploads/2018/03/contact-us-form-background.jpg);
+            color: white;
+            font-size: 20px;
+        }
+
+        .img1 {
+            background-color: white;
+            border-radius: 20px;
+            width: 50px;
+            height: 50px;
+            margin-top: 15px;
+        }
+        .detail {
+            display: flex;
+        }
+        .git {
+            text-decoration: none;
+            color: white;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            align-items: center;
+            background-color: aquamarine;
+            line-height: 50px;
+            color: black;
+        }
+        .nav-part:hover{
+            border-top: 2px solid black;
+        }
+        .nav a{
+            text-decoration: none;
+        }
+        .logo1 {
+            width: 50px;
+            margin-bottom: 15px;
+
+        }
+        footer {
+            background-color: black;
+            height: 350px;
+            margin-top: 30px;
+            text-align: center;
+            color: white;
+
+        }
+        footer > p{
+            width: 400px;
+            margin-left: 550px;
+        }
+        .subscribe {
+            height: 30px;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        .subscribe:hover{
+            background-color: greenyellow;
+            color: black;
+        }
+        hr {
+            border: 2px solid black;
+        }
+        .main1 {
+            display: flex;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+input textarea{
+    padding-right: 20px;
+}
+
+
+    </style>
+</head>
+
+<body>
+        <nav>
+            <a href="index.html"><img width="40px" class="logo1"
+                    src="https://seeklogo.com/images/R/rockstar-games-logo-6181D35551-seeklogo.com.png" alt="">
+    
+                <img class="logo2"
+                    src="https://static.vecteezy.com/system/resources/previews/027/127/502/non_2x/grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png"
+                    alt=""></a>
+            <a href="index.html">Overview</a>
+            <a href="gtaOnline.html">GTA Online</a>
+            <a href="login.html">Login</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <hr>
+        <div class="main1">
+        <div>
+            
+            <p>My self <ins>Sumant Mahesh Adky</ins></p>
+            <span>I am learning Front-end Web development.
+                I am trying to make the GTA 5 Website.
+    
+            </span><br><br><br><br>
+            <ins>For Enquiry, Feel free to conatct Us</ins><br><br>
+            <div class="detail">
+                <img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA4FJREFUSEvFllnITlEUhp/fkCEy3pAL4sKYzBkyZchUZiFy4QYZkuEChURkKIqiKFFC5kxlLkSmiFCGRMo8K+N+tY7Wd/5zzvfRX/+qr863h/Xuvda71ruLKCUrKiVcSgJ4HFABeAhcAj4Ucpks4HJAc+AW8D3D2Wmgm83/MvAVwJ6sA6QBVwvOTgGtgKtAD+B9iiMP7JecBYYAr5P2JQFXAU4A7d2Ga0BP4G2CkzJAQ6Ax0BSYBdS2dfeAPsDj+L44cGXgGNDFFr4DdHtZFrj3WyccYgfQ1QbvAB3iuffAOrlAe9mG48BIYBfQ24F3j4V9AlDP1t21dfK1Gphu/3cDI/zpPPAYYLtN6gCDga9AReCgO1A85z7H2jcPuAKUBS4Cbc1nJ+BCBO6B5wDLbaI6oDBHFgffAEy2yTi5fho/BK6cXwfKh3AfCYzvnwQ8FthmEyLLAwdcNTg77HK/KMwttPlKQBNgEjDRxhSVNvataA20kqwRyPdR4/7GKpmTtlh5PGPfuu05F7KtgPKqmo3bWmCqDTYLHLkNLAAW21jEmRzgRsB9WzAzsHmNfXcMJXHekWQUoHAmmW4uMJk6miIoYoqoMh1iSfzGIsMLQOFQHUfs1o01rvouxs4YusKuXMrWhxzvNH97bWwzoIgV69WbLE/fbMMn27DFwqvxusDLlBsXPBxvIANCLg/Z7mnAOvv24dpvpVYwSNLCOLCEQZ1G+X4ONLBa1l71bpFONheQEHhTipZa6cwOzeNN1smSerXIo5Ynk4OV9q3upEMp1zKVyRTgiaVFVdDC5m6aYqWCp6mTir5lAFaOOweVuWEOh1p3E+EiExElClrvTT4kLIngacCtTVfF9KdWwwq9TOEX2SIN9mA6hLS7rw2mgmc9BGa4WlZtqt1F8qZ9wwD1d43rBXLZdPsHcMAJSyJ4vqePHAyy078yYVcX8yYpbWfAn20i3tslqRKLv40nH7C0eJ9js26zzH4RSBp5tfdZYL8OJpMm6032x/IBa43yvMppq8aUb7U/abVXscivOpj6gcglk2goKgXf2N9GwrDR6jQal1BI/kQqPQpVbo+sVUag0mSRLefNVsiNPbgYPT9I5vjQ7NVs8pn40M/KMmftvwJHm+sDowOh1GL1skjyI/0eHrrcl6TT/S+w91XTGFsL0LdIpZwezQpHSQDnC3fifKkB/wYUVbMfxOe3qgAAAABJRU5ErkJggg==" />
+              <pre>  </pre>  <h2>9741999999</h2>
+            </div>
+            <div class="detail">
+                <img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAcpJREFUSEvt1s+LTlEcx/HXyI8lJQvJj39Amo1kY8POj9KUFAs2UtOkbPxYIMRCEQs7JVNSUn7szGJ2lIWFLGVSspAFm2kQzlfn6rh55j7zuD3P5rmrc8/9ns/7ez/ne36MGNAzMiCuIbhvztetPoIT2NByBjM4j1uVbgnehumWgXW5zXgRnSX4FC7myHMtJ3Am653E5Tr4LKqAg5hsCX4Ad4ofCs5ff1yC49tNHMPXHhNYims4WowPJxvBEf8Su/B+gfA1eIzR2rhGcNgcFsXzCfvxtEv4DtzFyhxfav0THPP724Y8BRO4kgpuCX7k+Y/i+9khgSjU02lsiC9K7W84nhK4UYzpChz6W/AIqzJsCmP4XIMvx31sz/0fsBfP83uVbKPV5TJbjQc5idB5h514lUU34knaHNbl94DtxsciuZ7AMX4xrmI8i82lBA7nduxGy3L7erb3e82RnsGVzj7cLkBV/ywO4V6H+f9vcOhuSsvkIdZnyJu07Pbg9TxV3wo49FcgbI1qj+r/0rDUWgN3uaT/hA3BfT8W4+i9VG2N1UT04yKwFc/q4HiPIywO67ULrZ6G+LdpE7rQ6erTMmt+ueG9um92D8zqXxs3ZB/GykYiAAAAAElFTkSuQmCC"/>
+                <pre>  </pre><a class="git" href="https://mail.google.com/mail/u/0/?hl=en_GB#inbox"><h2>sumant1@gmail.com</h2></a>
+            </div>
+            <div class="detail">
+                <img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAtZJREFUSEvlltmrjlEUxn+HUlyIzGQMZQiZyR8gynjhQsYc51whxYWiRClEUjJkigspQynl2sUxZqaUeSpDUmR27Odrv6d9lr2/732/m3Nh1Vvf+37rWc/ea6/1rF1DC1lNC/FSlLgVMB4YAPSAEv4N8BS4BPzOu5G8xH2BdcBcoFMi+EfgFLAFeFxpAZWI27hdrAfWAvqdx34BW102NrrF/kgByhErlefcMyYPW8TnKjALeB3Dp4j7AQ1A9ypJM5hIJwPPbJwYcUfgMjDIOz/yRaSCymMi+Q4M9s4PgEnApxAcIz4CLAqcpjrgBWA0sA0YBiiYHp2n3ocAWuBqQCmeAlwMYhxwKV9ejniCb4vQp79vlzy7zXx0RGqzzBqB4cD97IPd8XFgvmEYBdwqwgoMBe4ZzEFgWYy4NfAe6BAA3vqVvitI3N4fRc8Ap0LrFSMe688n5FjhBGN3QdLMXWe6z2CVCdVGM8lUz50xjqrkJ1USa7evDHaG14ZmxMq/qi80gcMiKbKGdsAXA2jKYFhctcB+4zgSuF2ELfDtDTw32DXAdpvqOV7kQ9+lwOEqiWcCZw12MXDUEksEmvrMA867gpteJfFp14azDXYccM0S613tZMfeQuBYQXJhSjsL7LNv1dLMtgKy1xVTHfDTi4ZaTHYI2BCpUrseDReNQxFbkxQvyT5a4lBxVgI3fIspC3+A68AO4ISJKj3f7PU8NfFGuIvEnRSxvu8EVnkHTZVuTgJPBheBmIR2AaRyKdsVxCz5xFbX1g8KrTArLgVeAHwD9iSiSyxCiczcbvqZ/DXEpdLSB7jid1vv+1sTppxJ4XTGoUmfJwIvLLDc1UdBtGO1mSryISBR6Jpgl1jo/8zuusVPi5GmUh3GleypSjXgdbX9AHROEEtaNYfVEbowbPJHE3WvdMvMQNqJUj7QTZd5CWL17UtfA3Y4/APJS1zheIv//f8R/wWu0n4fd8acIQAAAABJRU5ErkJggg=="/>
+                <pre>  </pre><h2><a class="git" href="https://github.com/SumantAdky1">GitHub</a></h2>
+            </div>
+            <div class="detail">
+                <img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwhJREFUSEvllknoT1EUxz9/YxmKIvOQDFFmNmQIO0RSLMxiYWeIEjIkCrFRFmZZWBgybSgZisyJSCxkSiky7Qznq/P0uu597/1sKLd+vfrde8/3nu/5nqGOv7Tq/hIu/zxwO6A7UL+Eoa/AE+B1GZNFHrcFtgDjgZZlhoL9d8AZYHnqESlggR0x4KZu8DNwB5BHRasRMAho7Ic+AdOAs+GlGHAT4Ckgj/fZdxdwqwJoZrsBMAJY599XQA/z/ksePAasC2vc4+k1UqzjMw1Udg8CF4DR/oi1ZcAvgA7u8ZsagQUqQK25Hp67wEugYxGw6JUiH5nHvROgetQkYBjwHbgKHPd7s4ADfm+eh+oj0AxoDbzNbIZUSxiK5xWPT4i90IxsBZoHGx+AxcBeYI5Tfd8y4obrpRvQF9B/P1cILFFc8lSYEBhf6qAC2QHcBhoC/RxUXglce/l1z0HFkNiJAo8Dzjl1U3K3B/rrRdVgj1neeGd/iJgQaw9ym4pxf2dQTBYCHzVapuYur7d0Wg0sAbYnYr8C2AysMiY25s6IGT18JHA5BTwWOB/x+BQg6vVTRYotMaQHh4+WZsSC0upiClibyr3TJrKJOesnXMlS88kagSWwIaadMW47SnUGLOMCyZYKigrLMlP0tgTwSqdY3025MzddF6NcuIXAocedPLdV9gZExNXFi4XKZa+gMVQS13DPYcUxTKdFVgR2mtcq/EoZeaKmIMUqjVTjF1iF2h0wIoX3MW0M9TtRj6U+qTBVQGRYVMcKiBS/JxIGNRwVED1QOR0FVj19bnX2GdA1EUuVzMmW72JHbfKaFZFjib5bz7uS2qTCpT4QBdaE8d5ra/sqk0TicdnfUrNUrfC0yLfWWFtUjOZbDz1sY8yMEsNl21lbVF9X0/i1YsCtgMc+7mhy2ABctx79rQzF97NBQPcUDo1BPfOdSedSo89si/H+HNCfjj4yoVZ5KHx00bCn2iqlqoJJJLUssaNaoAxQt/ttVZmr2xQMBanHPAQKp5cqwLV4Wvns/wf8A/yioB/UQ80fAAAAAElFTkSuQmCC"/>
+                <pre>  </pre><h2><a class="git" href="https://www.instagram.com/sumant.adky?igsh=MXUwbHhybzk3bmZpMA==">Instagram</a></h2>
+            </div>
+            <div class="detail">
+                <img class="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWxJREFUSEvt109LFlEUx/HPAy6CQAQ1ktCFLRRC2rkL8w2UL0NUqNa6EnKZBIWrdr0AQdwJCq5aRyAogoFo5qalC6m5cAeuo8QzPPPMCHpWM3c453vP75z7Z1oaslZDXLcKPILRipU4xM80ZjHjIRxTuRJ/8QQnObwIfontirPNw01jpwx4H8N40OGESoFfYQMPsZmpMdUBvG3wLzxOQLNYqwN8iX78ibAP2fO7OsCBsZXV9wueYQF9dYE74FxzbbvGwXMmkfpNfP8aVQjfJxEacBW7OMMLLGdLJyzN1EqBBzOJz6P3J8zjPZbiWCjBAS4KkB58x3gyXik4jzuB02xivxPQHD53E7yO1wir4Dl+RFgow7dugXuTHgiMRaxEWDhsjroFfhprnMf/iLfxZaAgfakaP0qcb2quMewlWYWdLdQ2WGjM0OW53YOvrMDieXz3pG5sr64N3NhlL2TYyPW2Smn/G+tW/UnUkvU/UCiAH3HBfpQAAAAASUVORK5CYII="/>
+                <pre>  </pre><h2><a class="git" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">Linkedin</a></h2>
+            </div>
+    
+        </div>
+        
+            <div class="container">
+        <h1>Enquiry Form</h1>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    
+        </div>
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <h3>Copyright @2024 Created by <u>Sumant Adky</u></h3>
+        <img class="logo1" src="https://seeklogo.com/images/R/rockstar-games-logo-6181D35551-seeklogo.com.png" alt="">
+        <h4>Subscribe to the Rockstar Games Email List</h4>
+        <p>Sign up for our email newsletter to get info on game announcements and updates, details on special events and offers, and more from Rockstar Games and our affiliates.</p>
+        <a href="https://signin.rockstargames.com/signin/user-form?cid=rsg"><input class="subscribe" type="button" value="SUBSCRIBE NOW"></a>
+    </footer>
+</body>
+
+</html>
