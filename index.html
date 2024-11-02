@@ -7,6 +7,7 @@
     <title>GTA 5 Website</title>
     <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/024/693/449/original/gta-v-logo-transparent-free-png.png" type="image/x-icon">
     <style>
+
         a {
             text-decoration: none;
             color: white;
@@ -55,7 +56,7 @@
 
         main>h1 {
             margin-left: 50%;
-            margin-top: -6%;
+            margin-top: -4%;
             color: white;
             font-weight: bold;
             width: 400px;
@@ -143,6 +144,64 @@
             border-radius: 5px;
             margin-top: -10px;
         }
+        .section3{
+            background-color: rgb(58, 57, 57);
+        }
+        .section3-img, .section4-img {
+            margin-left: 21%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 13px 13px 10px rgba(255, 255, 255, 0.473);
+        }
+        .section3-h1 {
+            color: white;
+            font-weight: 900;
+            text-align: center;
+        }
+        .section3-p {
+            color: white;
+            font-size: 20px;
+            width: 550px;
+            margin-left: 35%;
+        }
+        .section4-img {
+            width: 860px;
+            height: 484px;
+
+        }
+
+         /* Drop Down */
+
+         .dropdown-content {
+            display: none;
+            background-color: black;
+            position: absolute;
+            top: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 5px;
+            padding-top: 10px;
+            
+         }
+         .dropdown:hover .dropdown-content{
+            display: block;
+         }
+         .dis:hover, .car:hover, .lic:hover {
+            color: white;
+            cursor: pointer;
+            padding-bottom: 3px;
+         }
+         .dropdown-content a{
+            border-bottom: 1px solid whitesmoke;
+            display: block;
+            line-height: 35px;
+         }
+         .drp:hover {
+            font-weight: normal;
+            text-decoration: none;
+         }
+         
     </style>
     
 </head>
@@ -156,7 +215,16 @@
                 src="https://static.vecteezy.com/system/resources/previews/027/127/502/non_2x/grand-theft-auto-gta-v-logo-grand-theft-auto-gta-v-icon-transparent-free-png.png"
                 alt=""></a>
         <a href="index.html">Overview</a>
-        <a href="gtaOnline.html">GTA Online</a>
+        
+        <div class="dropdown">
+            <a href="gtaOnline.html">GTA Online</a>
+            <div class="dropdown-content">
+            <a class="dis drp" href="https://www.rockstargames.com/gta-online">Discover</a>
+            <a class="car drp" href="https://www.rockstargames.com/gta-online/career-progress">Career Progress</a>
+            <a class="lic drp" href="https://www.rockstargames.com/gta-online/license-plates">License Plate Creator</a>
+            </div>
+          </div>
+          
         <a href="login.html">Login</a>
         <a href="aboutus.html">About Us</a>
         <a href="contact.html">Contact Us</a>
@@ -187,6 +255,35 @@
         <span><img class="shot" src="https://wallpapercave.com/wp/wp5334212.jpg" alt=""></span>
 
     </div>
+    <br>
+    <hr>
+    <br>
+    <div class="section3">
+        <img class="section3-img" src="https://imgs.search.brave.com/PQPdc9cdoukp68ckJ5N8APVHO--bH3vb9W-_BHnhW1k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS82LzM1/L0J5clBrbC5wbmc" alt="">
+        <h1 class="section3-h1">Exclusive New Content</h1>
+        <p class="section3-p">Step into Hao’s Special Works at the Los Santos Car Meet, featuring elite new upgrades and exclusive modifications. Then take these high-performance vehicles into HSW races, new time trials, and more.</p>
+        <br>
+    </div>
+    <div class="section3">
+        <img class="section4-img" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/03/collage-maker-12-mar-2023-11-33-am-2913.jpg" alt="">
+        <h1 class="section3-h1">New Career Builder</h1>
+        <p class="section3-p">Get started in GTA Online with the tools of the trade. Quickly choose from one of four businesses — Biker, Executive, Nightclub Owner, or Gunrunner — and select from properties, powerhouse vehicles, and weaponry to kick-start your enterprise.</p>
+        <br>
+    </div>
+    <div class="section3">
+        <img class="section4-img" src="https://rockstarintel.com/wp-content/uploads/2022/03/FOsyCxvXMAQg07s-1-scaled.jpg" alt="">
+        <h1 class="section3-h1">Stunning Visuals</h1>
+        <p class="section3-p">Enhanced levels of fidelity and performance with new graphics modes featuring up to 4K resolution, up to 60 frames per second, HDR options, ray tracing, improved texture qualities, and more.</p>
+        <br>
+    </div>
+    <div class="section3">
+        <img class="section4-img" src="https://images.hindustantimes.com/tech/img/2023/05/04/1600x900/gta_v_1683205112315_1683205118936.png" alt="">
+        <h1 class="section3-h1">3D Audio</h1>
+        <p class="section3-p">Hear the sounds of the world with pinpoint precision: the throttle of a stolen supercar, the rattle of neighboring gunfire, the roar of a helicopter overhead, and more</p>
+        <br>
+    </div>
+    <br>
+
     <footer>
         <h3>Copyright @2024 Created by <u>Sumant Adky</u></h3>
         <img class="logo1" src="https://seeklogo.com/images/R/rockstar-games-logo-6181D35551-seeklogo.com.png" alt="">
